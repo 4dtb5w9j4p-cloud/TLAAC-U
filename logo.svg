@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Scale of justice logo">
+  <title>The Legal Advisory Aid Camp logo</title>
+  <defs>
+    <style>
+      .stroke{stroke:#2E2A28; stroke-width:4; stroke-linecap:round; stroke-linejoin:round; fill:none}
+      .fill{fill:#8C6D3F}
+    </style>
+  </defs>
+  <rect width="200" height="200" rx="12" fill="#F5F1E6"/>
+  <!-- central pillar -->
+  <line x1="100" y1="40" x2="100" y2="150" class="stroke"/>
+  <line x1="60" y1="150" x2="140" y2="150" class="stroke"/>
+  <!-- balance beam -->
+  <line x1="60" y1="80" x2="140" y2="80" class="stroke"/>
+  <line x1="100" y1="40" x2="100" y2="60" class="stroke"/>
+  <!-- left scale -->
+  <line x1="70" y1="80" x2="70" y2="110" class="stroke"/>
+  <path d="M60 120 q10 6 20 0 q-10 -6 -20 0" class="stroke"/>
+  <!-- right scale -->
+  <line x1="130" y1="80" x2="130" y2="110" class="stroke"/>
+  <path d="M120 120 q10 6 20 0 q-10 -6 -20 0" class="stroke"/>
+  <!-- accent circle -->
+  <circle cx="100" cy="36" r="8" class="fill"/>
+</svg>
