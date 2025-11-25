@@ -1,38 +1,38 @@
+# TLAAC — The Legal Advisory Aid Camp (Static Site)
 
-# The Legal Advisory Aid Camp — Static Website
+This package contains a ready-to-publish static website for **TLAAC**.
 
-This is a simple static website for *The Legal Advisory Aid Camp*, created to provide free legal aid and research about Uganda's legal framework.
+## Files
+- index.html
+- about.html
+- team.html
+- research.html
+- contact.html
+- styles.css
+- logo.svg
 
-## Included files
-- `index.html` — home page
-- `about.html` — about the project
-- `research.html` — research list
-- `contact.html` — contact details
-- `styles.css` — styling
-- `logo.svg` — logo (scale of justice)
+## How to publish
 
-## How to publish for free
-
-### Option A — GitHub Pages
+### Option A — GitHub Pages (recommended for static sites)
 1. Create a new GitHub repository (public).
-2. Upload all files (you can drag-and-drop in the web UI).
-3. In repository settings → Pages, set the source to the root branch (`main` or `master`) and save.
-4. Your site will be available at `https://<your-username>.github.io/<repo-name>/`.
+2. Upload all files (drag-and-drop or push via git).
+3. In the repository, go to Settings → Pages.
+4. Under "Build and deployment" choose "Deploy from a branch".
+5. Select the `main` branch (or `master`) and the root folder `/`.
+6. Save — your site will be available at `https://<your-username>.github.io/<repo>/`.
+7. To use **TLAAC.com**, add the domain in Pages settings and update your domain's DNS (A or CNAME record) as instructed by GitHub.
 
-### Option B — Netlify (drag-and-drop)
-1. Go to https://www.netlify.com and sign up.
-2. On the Sites dashboard, "Add new site" → "Deploy manually" → drag-and-drop the site folder (zip).
-3. Netlify will publish a free site at a `netlify.app` domain.
+### Option B — Netlify (easy, supports drag-and-drop & custom domains)
+1. Sign up at netlify.com.
+2. On the dashboard choose "Add new site" → "Deploy manually" → drag-and-drop the ZIP or folder.
+3. Once deployed, go to Domain settings → Add custom domain → enter `TLAAC.com`.
+4. Update your domain's DNS records to point to Netlify (they will provide the DNS targets).
 
-### Option C — Vercel
-1. Sign up at https://vercel.com and import from GitHub.
-2. Select framework as "Other" and deploy — it's free for static sites.
+### Notes about the domain (TLAAC.com)
+I cannot connect the domain or upload files to your hosting without access to your registrar/hosting account.
+To point `TLAAC.com` to this site you will need to:
+- Own the domain and be able to edit DNS records OR
+- Give a developer access to your hosting control panel.
 
-## Custom domain
-You can add a custom domain from your domain registrar — both GitHub Pages and Netlify support custom domains and SSL.
-
-## Notes / Next steps
-- Replace example contact details with your real contact info.
-- If you want a contact form that stores messages, you'll need a backend or a service (Formspree, Netlify Forms).
-- I can customize copy, add pages, or produce Word/PDF guides for clinics.
+If you want, I can provide exact DNS records and step-by-step instructions for whichever host or registrar you use.
 
